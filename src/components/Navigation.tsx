@@ -7,6 +7,7 @@ const Navigation = () => {
     { id: 'home', label: 'Home', icon: '🏠' },
     { id: 'experience', label: 'Experience', icon: '💼' },
     { id: 'projects', label: 'Projects', icon: '🚀' },
+    { id: 'blog', label: 'Blog', icon: '✍️' },
     { id: 'contact', label: 'Contact', icon: '📧' },
   ];
 

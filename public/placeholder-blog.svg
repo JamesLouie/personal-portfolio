@@ -1,0 +1,46 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34D399;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="200" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="20" fill="url(#iconGradient)" opacity="0.1"/>
+  <circle cx="350" cy="150" r="15" fill="url(#iconGradient)" opacity="0.1"/>
+  <circle cx="320" cy="40" r="10" fill="url(#iconGradient)" opacity="0.1"/>
+  
+  <!-- Main icon -->
+  <g transform="translate(200, 100)">
+    <!-- Document icon -->
+    <rect x="-25" y="-35" width="50" height="70" rx="4" fill="url(#iconGradient)" opacity="0.2" stroke="url(#iconGradient)" stroke-width="2"/>
+    
+    <!-- Lines representing text -->
+    <rect x="-20" y="-25" width="40" height="3" rx="1.5" fill="url(#iconGradient)" opacity="0.6"/>
+    <rect x="-20" y="-18" width="35" height="3" rx="1.5" fill="url(#iconGradient)" opacity="0.6"/>
+    <rect x="-20" y="-11" width="30" height="3" rx="1.5" fill="url(#iconGradient)" opacity="0.6"/>
+    <rect x="-20" y="-4" width="25" height="3" rx="1.5" fill="url(#iconGradient)" opacity="0.6"/>
+    <rect x="-20" y="3" width="40" height="3" rx="1.5" fill="url(#iconGradient)" opacity="0.6"/>
+    <rect x="-20" y="10" width="35" height="3" rx="1.5" fill="url(#iconGradient)" opacity="0.6"/>
+    <rect x="-20" y="17" width="30" height="3" rx="1.5" fill="url(#iconGradient)" opacity="0.6"/>
+    <rect x="-20" y="24" width="20" height="3" rx="1.5" fill="url(#iconGradient)" opacity="0.6"/>
+  </g>
+  
+  <!-- Subtle grid pattern -->
+  <g opacity="0.05">
+    <path d="M 0 50 L 400 50" stroke="url(#iconGradient)" stroke-width="1"/>
+    <path d="M 0 100 L 400 100" stroke="url(#iconGradient)" stroke-width="1"/>
+    <path d="M 0 150 L 400 150" stroke="url(#iconGradient)" stroke-width="1"/>
+    <path d="M 100 0 L 100 200" stroke="url(#iconGradient)" stroke-width="1"/>
+    <path d="M 200 0 L 200 200" stroke="url(#iconGradient)" stroke-width="1"/>
+    <path d="M 300 0 L 300 200" stroke="url(#iconGradient)" stroke-width="1"/>
+  </g>
+</svg> 
