@@ -13,11 +13,8 @@ const Footer = () => {
             </p>
             
             <div className="mb-5">
-              <a href="mailto:your.email@example.com" className="btn btn-primary btn-lg me-3 mb-2">
+              <a href="mailto:your.email@example.com" className="btn btn-primary btn-lg mb-2">
                 Send Email
-              </a>
-              <a href="#projects" className="btn btn-outline-light btn-lg mb-2">
-                View Projects
               </a>
             </div>
             
